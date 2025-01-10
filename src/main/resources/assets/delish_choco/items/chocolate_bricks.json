@@ -1,0 +1,9 @@
+// For some item 'examplemod:example_item'
+// JSON at 'assets/examplemod/items/example_item.json'
+{
+    "model": {
+        "type": "minecraft:model",
+        // Points to 'assets/examplemod/models/item/example_item.json'
+        "model": "delish_choco:item/chocolate_bricks"
+    }
+}

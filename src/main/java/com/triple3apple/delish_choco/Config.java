@@ -1,8 +1,7 @@
-package com.triple3apple.delishchoco;
+package com.triple3apple.delish_choco;
 
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -56,8 +55,8 @@ public class Config
         magicNumberIntroduction = MAGIC_NUMBER_INTRODUCTION.get();
 
         // convert the list of strings into a set of items
-        items = ITEM_STRINGS.get().stream()
-                .map(itemName -> BuiltInRegistries.ITEM.getValue(ResourceLocation.parse(itemName)))
-                .collect(Collectors.toSet());
+//        items = ITEM_STRINGS.get().stream()
+//                .map(itemName -> BuiltInRegistries.ITEM.getValue(ResourceLocation.parse(itemName)))
+//                .collect(Collectors.toSet());
     }
 }
